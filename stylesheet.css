@@ -1,0 +1,20 @@
+    /* .cu stands for: center and underline; Used for top headers only*/
+    .cu
+    {
+        font-family: sans-serif;
+        text-decoration: underline;
+        text-align: center;
+    }
+
+    /* .u stands for: underline; Used to underline anything*/
+    .u
+    {
+        text-decoration: underline;
+        font-family: sans-serif;
+    }
+
+    /* .p stands for: paragraph; Used to change font*/
+    .p
+    {
+        font-family: sans-serif;
+    }
