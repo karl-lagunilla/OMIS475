@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display');
+
 body {
-    font-family: sans-serif;
+    font-family: 'Major Mono Display', monospace;
     background-image: url("Assets/Pics/wood.jpg");
 }
 
