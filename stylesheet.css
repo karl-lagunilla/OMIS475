@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
 
 body {
-    font-family: 'Major Mono Display', monospace;
-    font-weight: bold;
+    font-family: 'Open Sans Condensed', sans-serif;
     background-image: rgba(0, 0, 0, 0.2), url("Assets/Pics/wood.jpg");
 }
 
