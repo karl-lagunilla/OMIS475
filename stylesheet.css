@@ -2,6 +2,7 @@
 
 body {
     font-family: 'Major Mono Display', monospace;
+    font-weight: bold;
     background-image: url("Assets/Pics/wood.jpg");
 }
 
