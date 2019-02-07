@@ -3,7 +3,7 @@
 body {
     font-family: 'Major Mono Display', monospace;
     font-weight: bold;
-    background-image: url("Assets/Pics/wood.jpg");
+    background-image: rgba(0, 0, 0, 0.2), url("Assets/Pics/wood.jpg");
 }
 
 .c {
