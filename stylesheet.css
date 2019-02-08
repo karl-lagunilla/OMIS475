@@ -2,7 +2,8 @@
 
 body {
     font-family: 'Open Sans Condensed', sans-serif;
-    background-image: rgba(0, 0, 0, 0.2), url("Assets/Pics/wood.jpg");
+    font-size: 40px;
+    background-image: url("Assets/Pics/wood.jpg");
 }
 
 .c {
