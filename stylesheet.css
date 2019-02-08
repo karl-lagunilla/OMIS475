@@ -1,14 +1,44 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
 
+header img {
+    height: 80px;
+    margin-left: 40px;
+}
+
 body {
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 40px;
-    letter-spacing: 2px;
+    height: 125vh;
     background-image: url("Assets/Pics/wood.jpg");
+    background-size: cover;
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin-top: 80px;
+    padding: 30px;
 }
 
-.c {
-    text-align: center;
+main {
+    color:white;
 }
 
-    
+header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 25px 0 black;
+}
+
+header * {
+    display: inline;
+}
+
+header li {
+    margin: 20px;
+}
+
+header li a {
+    color: black;
+    text-decoration: none;
+}
