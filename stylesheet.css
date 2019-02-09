@@ -7,7 +7,7 @@ header img {
 
 body {
     height: 125vh;
-    background-image: url("Assets/Pics/wood.jpg");
+    background-color: #97caef;
     background-size: cover;
     font-family: 'Open Sans Condensed', sans-serif;
     margin-top: 80px;
@@ -15,7 +15,7 @@ body {
 }
 
 main {
-    color:white;
+    color:black;
 }
 
 header {
