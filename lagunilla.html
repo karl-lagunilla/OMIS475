@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>About Me</title>
+<link rel="shortcut icon" href="Assets/Pics/favicon.ico" type="image/x-icon">
+<link href = "stylesheet.css" rel = "stylesheet">
+<meta-charset="utf-8"></meta-charset>
+</head>
+
+<body>
+    <header>
+        <a href = "home.html"><img src = "Assets/Pics/KL.png"></a>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="lagunilla.html">About Me</a></li>
+                <li><a href="assignment.html">Assignments</a></li>
+                <li><a href="javascript.html">JavaScript</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <p style = "font-size: 40px;">My name is Karl Lagunilla and I major in Operations Management
+         & Information Systems with a minor in Business Analytics. I am graduating in May 2019. I love
+        working out, playing the piano, and gaming. I'm all about technology and love coding.</p>
+
+        <div id="clockbox"></div>
+
+        <script type="text/javascript">
+            var tday=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+            var tmonth=["January","February","March","April","May","June","July","August","September","October","November","December"];
+            
+            function GetClock(){
+            var d=new Date();
+            var nday=d.getDay(),nmonth=d.getMonth(),ndate=d.getDate(),nyear=d.getFullYear();
+            var nhour=d.getHours(),nmin=d.getMinutes(),nsec=d.getSeconds(),ap;
+            
+            if(nhour==0){ap=" AM";nhour=12;}
+            else if(nhour<12){ap=" AM";}
+            else if(nhour==12){ap=" PM";}
+            else if(nhour>12){ap=" PM";nhour-=12;}
+            
+            if(nmin<=9) nmin="0"+nmin;
+            if(nsec<=9) nsec="0"+nsec;
+            
+            var clocktext=""+tday[nday]+", "+tmonth[nmonth]+" "+ndate+", "+nyear+" "+nhour+":"+nmin+":"+nsec+ap+"";
+            document.getElementById('clockbox').innerHTML=clocktext;
+            }
+            
+            GetClock();
+            setInterval(GetClock,1000);
+            </script>
+    </main>
+</body>
+</html>
